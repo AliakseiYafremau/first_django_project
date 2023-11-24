@@ -21,3 +21,5 @@
   - На странице /about/ content повторяется два раза
   - Доступ к странице /info/ есть только у зарегистрирующихся пользователей
   - Шрифты и размер символов на главной странице изменены. Шрифт изменен на Times New Roman, а размер (изменения относятся только к тексту атрибута <h1>) с (1.375, 1.5) на (2, 4)
+  - Сайт оформлен с помощью Bootstrap-шаблона (https://lms-cdn.skillfactory.ru/assets/courseware/v1/7c611acd94cf0ab26dfde1dfaf74b41c/asset-v1:SkillFactory+PDEV+2021+type@asset+block/startbootstrap-bare-gh-pages.zip)
+  - Статические файлы Bootstrap загружаются через теги {% load static %} и {% static %}.
